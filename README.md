@@ -21,12 +21,19 @@ MCQ Helper is a lightweight Python/EXE tool that:
 
 ---
 
+## Important
+- The a.py is for python running environment
+- The b.py is .exe environment (apparently the code structure for exe changes)
+- The Region Finder.py is used for reducing tokens(basically to save money) by taking the nessary part screen shot only
+- **If you want to avoid confusion just use f4 but this might discloused information to the AI model**
+- **The exe is in dist folder**
+
 ## ⚙️ Setup
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/mcq-helper.git
-cd mcq-helper 
+git clone https://github.com/vfstr517/MCQ-Cheater-Helper
+cd MCQ-Cheater-Helper
 ```
 
 ### 2. Install dependencies (Python users only)
