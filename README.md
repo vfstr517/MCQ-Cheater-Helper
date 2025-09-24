@@ -21,11 +21,11 @@ MCQ Helper is a lightweight Python/EXE tool that:
 
 ---
 
-## Important
+## **Important**
 - The a.py is for python running environment
-- The b.py is .exe environment (apparently the code structure for exe changes)
+- The b.py is .exe environment (apparently the code structure for exe changes in Python)
 - The Region Finder.py is used for reducing tokens(basically to save money) by taking the nessary part screen shot only
-- **If you want to avoid confusion just use f4 but this might discloused information to the AI model**
+- **If you want to avoid confusion just use f4 but this might discloused sensitive information to the AI model**
 - **The exe is in dist folder**
 
 ## ⚙️ Setup
@@ -50,10 +50,12 @@ Dependencies:
 ### 3. Install Tesseract OCR
 
 Download from [UB Mannheim Tesseract Build](https://github.com/UB-Mannheim/tesseract/wiki).  
-Default install path or you can customise this using p.txt:
+Default installation path:
 ```bash
 C:\Program Files\Tesseract-OCR\tesseract.exe
 ```
+or you can customise this using p.txt.
+
 ## 📂 Config Files
 
 Place these files in the same folder as your .py or .exe:
@@ -71,7 +73,7 @@ Place these files in the same folder as your .py or .exe:
 python mcq_helper.py
 ```
 ### EXE
-**After building (see below), double-click:**
+**After building (go to below path), double-click:**
 ```bash
 dist/mcq_helper.exe
 ```
@@ -82,7 +84,7 @@ dist/mcq_helper.exe
 - Esc → Exit
 
 ## 📦 Build EXE (Optional):
-If you want to do changes to the code just use this on b.py
+If you want to do changes to the code just use this on b.py to convert to **.exe**
 ```bash
 pip install pyinstaller
 pyinstaller --onefile --noconsole b.py
@@ -91,7 +93,7 @@ Your exe will be in dist/mcq_helper.exe.
 
 ## 📝 Notes
 
-- Requires a valid [OpenRouter API key](https://openrouter.ai/)in b.txt
+- Requires a valid [OpenRouter API key](https://openrouter.ai/) in b.txt
 - Internet connection required
 - Works on Windows (tested), may need tweaks for Linux/Mac
 
